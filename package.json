@@ -1,18 +1,18 @@
 {
-  "name": "xstate-typescript-template",
+  "name": "xstate-ts45-error-repro",
   "version": "1.0.0",
-  "description": "You can fork this sandbox to create a reproduction for XState issues.",
+  "description": "Repro for XState error when building with TypeScript 4.5",
   "main": "index.html",
   "scripts": {
-    "start": "parcel index.html --open",
-    "build": "parcel build index.html"
+    "build": "tsc"
   },
   "dependencies": {
     "xstate": "4.26.0"
   },
   "devDependencies": {
     "@babel/core": "7.2.0",
-    "parcel-bundler": "^1.6.1"
+    "parcel-bundler": "^1.6.1",
+    "typescript": "4.5"
   },
   "keywords": []
 }
