@@ -1,5 +1,6 @@
 {
   "name": "xstate-ts45-error-repro",
+  "license": "MIT",
   "description": "Repro for XState error when building with TypeScript 4.5",
   "scripts": {
     "build": "tsc"
@@ -8,6 +9,6 @@
     "xstate": "4.26.0"
   },
   "devDependencies": {
-    "typescript": "4.5"
+    "typescript": "4.4"
   }
 }
