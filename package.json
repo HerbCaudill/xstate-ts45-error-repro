@@ -1,8 +1,6 @@
 {
   "name": "xstate-ts45-error-repro",
-  "version": "1.0.0",
   "description": "Repro for XState error when building with TypeScript 4.5",
-  "main": "index.html",
   "scripts": {
     "build": "tsc"
   },
@@ -11,6 +9,5 @@
   },
   "devDependencies": {
     "typescript": "4.5"
-  },
-  "keywords": []
+  }
 }
